@@ -1,0 +1,18 @@
+// My first program in C++
+        // We start with the comments!
+
+/*
+
+multi-line comment
+
+*/
+
+// Every program should begin with a comment describing the purpose of the program.
+
+#include <iostream>
+
+int main(){
+    std::cout << "welcome to c++!\n";
+    return 0; // indicates the the program ended successfully
+}
+
