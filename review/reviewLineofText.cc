@@ -13,10 +13,25 @@
 // <<
 //  - Stream insertion operator
 
-#include <iostream>
+#include <iostream> // Process this line and include the contents of the passed file before C++ code is compiled and the main function called
+
+// The main function
+//  - Must be part of every C++ program
+//  - Even if main is not the first function in the program it wil lbe the first to execute
+// In C++ main returns a value instead of being void
 int main(){
-    std::cout << "Welcome to the C++ journey, it will be long and arduous, but deeply rewarding! \n";
+    // namespace::name syntax
+    
+    // Stream input/Output
+    // String literals are known as streams of characters
+    // This stream of characters is sent to the Standard Output Stream Object
+    std::cout << "Welcome to C++, this will be a arduous, fustrating and rewarding experience!"; 
     return 0;
+
+    // Statement Terminator
+    // - semicolon ;
+    //      - like SQL and Dart
 }
+
 
 
