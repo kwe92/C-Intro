@@ -13,4 +13,10 @@
 // <<
 //  - Stream insertion operator
 
+#include <iostream>
+int main(){
+    std::cout << "Welcome to the C++ journey, it will be long and arduous, but deeply rewarding! \n";
+    return 0;
+}
+
 
