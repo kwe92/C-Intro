@@ -12,6 +12,7 @@ multi-line comment
 #include <iostream>
 
 int main(){
+        // cout belongs to the name space std:: and std:: should prefix cout, cin, and cerr
     std::cout << "welcome to c++!\n";
     return 0; // indicates the the program ended successfully
 }
