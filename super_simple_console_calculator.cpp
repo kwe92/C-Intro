@@ -12,7 +12,7 @@ int main(){
     cin >> input1;
     cout << "Input another number\n";
     cin >> input2;
-    cout << "Available an operation:\n"<<"(e)xponent\n"<<"(m)ultiplication\n"<<"(d)ivision\n"<<"(a)addition\n"<<"(s)ubstraction\n";
+    cout << "Available operators:\n"<<"(e)xponent\n"<<"(m)ultiplication\n"<<"(d)ivision\n"<<"(a)addition\n"<<"(s)ubstraction\n";
     cin >> userSelection;
     if(userSelection == "e"){
         cout << input1 << " ^ " << input2 << " = " << pow(input1,input2) << endl;
