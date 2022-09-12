@@ -1,5 +1,5 @@
 // An extremely simple console app calculator
-//     - Takes two terms as input variables and evaluates them based on the choosen available operators. 
+//     - Takes two terms as input variables and evaluates them based on the chosen available operators. 
 
 #include <iostream>
 #include <cmath>
