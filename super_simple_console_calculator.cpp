@@ -1,4 +1,4 @@
-// An extremly simple console app calculator
+// An extremely simple console app calculator
 //     - Takes two terms as input variables and evaluates them based on the choosen available operators. 
 
 #include <iostream>
