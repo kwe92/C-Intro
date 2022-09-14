@@ -50,8 +50,15 @@ int main(){
     Point p1(11,7);
     Point p2(7,9);
     Point p3 = p1 / p2;
+    Point p4 = p1 * p2;
+    Point lstPoints[4] = {p1 , p2, p3, p2};
+    int len = *(&lstPoints + 1) - lstPoints;
+    
     cout << "x = " << p1.x << " y = " << p1.y << endl;
     cout << "The distance of p1 and p2 = " << Point::euclideanDistance(p1,p2) << endl;
     cout << "p1 / p2 = " << "Point(" << p3.x << ", " << p3.y <<")" << endl;
+    cout << "Length of lstPoints: " << len << endl;
+
+    
     return 0;
 }
