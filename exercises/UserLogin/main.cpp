@@ -1,8 +1,20 @@
-#include <iostream>
-#include <fstream>
-#include <string>
-#include "../lib/UserOptions.cpp"
+#include <iostream> // write to console and read keyboard input
+#include <fstream> // read and write to files
+#include <string> // string data type
+#include "UserOptions.cpp" // custom module
 
+/*
+ Create a simple user log in
+    - The if user registers
+    - Create a new user
+    - if the user wants to login, pronpt them to log in
+    - if the input password does not match the save password them write wrong username or password
+    - User Actions:
+        - register
+        - login
+
+
+*/
 using namespace std;
 
     int main(){

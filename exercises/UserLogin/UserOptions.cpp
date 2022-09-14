@@ -12,7 +12,7 @@ using namespace std;
     cout << "enter username: "; cin >> username;
     cout << "Enter password: "; cin >> password;
 
-    ifstream read("data\\" + username + ".txt");// ifstream is a data type that reads a file
+    ifstream read("/Users/kwe/C-Language/exercises/UserLogin/data/" + username + ".txt");// ifstream is a data type that reads a file
     getline(read, compare_un);// Kinda like read line
     getline(read, compare_pw);
     if(compare_un == username && compare_pw == password){
@@ -30,7 +30,7 @@ using namespace std;
         cout << "Select password: "; cin >> password;
 
         ofstream file;
-        file.open("data/" + username + ".txt");
+        file.open("/Users/kwe/C-Language/exercises/UserLogin/data/" + username + ".txt");
         file << username << endl << password;
         file.close();
     }
