@@ -28,14 +28,13 @@ int main () {
    cout << "Array values using pointer " << endl;
    
    for ( int i = 0; i < 5; i++ ) {
-      cout << "*(p + " << i << ") : ";
       cout << *map(times2,balance + i) << endl;
    }
    cout << "Array values using balance as address " << endl;
    
    for ( int i = 0; i < 5; i++ ) {
       cout << "*(balance + " << i << ") : ";
-      cout << *(balance + i) << endl;
+      cout << times2(*(balance + i)) << endl;
    }
  
    return 0;
