@@ -7,6 +7,7 @@
 //  - Member variables of a struct can be of any type
 //    unlike elements within an array that are homogeneous
 //  - Kind of like a non-homogeneous array
+//  - personal opinon: structs feel like public classes without methods
 
 #include <iostream>
 using namespace std;

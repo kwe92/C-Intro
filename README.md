@@ -1,3 +1,3 @@
-# C++ Intro
+# C++ Foundation
 
-- Learning C++
+- Learn C++ Foundation
