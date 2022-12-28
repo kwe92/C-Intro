@@ -1,23 +1,29 @@
 #include "student.h"
-
+#include <string>
 using namespace std;
+
+// Student::Student(string rn, string nm)
+// {
+//     rollNo = rn;
+//     name = nm;
+// }
 
 void Student::setName(string nm)
 {
-    this->name = nm;
-};
+    name = nm;
+}
 
 string Student::getName()
 {
-    return this->name;
+    return name;
 }
 
 void Student::setRollNo(string rn)
 {
-    this->rollNo = rn;
+    rollNo = rn;
 }
 
 string Student::getRollNo()
 {
-    return this->rollNo;
+    return rollNo;
 }
