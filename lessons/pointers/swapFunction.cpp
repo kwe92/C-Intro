@@ -25,15 +25,18 @@ void swapName(string &fname, string &lname)
 	lname = temp;
 }
 
+// void callBack()
+
 int main()
 {
-
+	// Suffixing the name of a struct creates an empty object of that shape
 	struct
 	{
 		string fname;
 		string lname;
 	} hero;
 
+	// Prefixing the name of a struct creates a data type
 	struct Villain
 	{
 		string name;
